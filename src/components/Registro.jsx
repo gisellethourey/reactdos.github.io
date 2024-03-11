@@ -2,17 +2,20 @@ import React from 'react'
 import SocialButton from './SocialButton'
 import Formulario from './Formulario'
 import Alert from './Alert'
-
-
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Registro(props) {
     return (
       <>
+      
         <div className='socialMedia'>
-    
-    <SocialButton icono="facebook" />
-        <SocialButton icono="github" />
-       <SocialButton icono="linkedin" />
+       <Row>   
+       <Col><SocialButton icono="facebook" /></Col>
+       <Col><SocialButton icono="github" /></Col>
+       <Col><SocialButton icono="linkedin" /></Col>
+       </Row>
         </div>
         <p>o usa tu mail para registrarte</p>
         <Formulario info={props.info}
