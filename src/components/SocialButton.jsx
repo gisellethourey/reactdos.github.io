@@ -13,7 +13,7 @@ function SocialButton({ icono }) {
 
     return (
         <div className='circulo'>
-            {icon && <FontAwesomeIcon icon={icon} size="3x" color="red" />}
+            {icon && <FontAwesomeIcon icon={icon} size="3x" color="black" />}
         </div>
     );
 }
