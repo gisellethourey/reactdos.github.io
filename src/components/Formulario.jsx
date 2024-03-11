@@ -43,7 +43,7 @@ function Formulario(props) {
                          onChange={(e) => props.setConfirm(e.target.value)}
                     />
                 </div>
-                <button type="submit" className="btn btn-danger" >Registrarse</button>
+                <button type="submit" className="btn btn-succes" >Registrarse</button>
             </form>
         </>
     )
